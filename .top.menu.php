@@ -1,0 +1,42 @@
+<? if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) {
+    die();
+} ?>
+<?
+$aMenuLinks = array(
+    array(
+        "Компания",
+        "company/",
+        array(),
+        array(),
+        ""
+    ),
+    array(
+        "Новости",
+        "news/",
+        array(),
+        array(),
+        ""
+    ),
+    array(
+        "Продукция",
+        "products/",
+        array(),
+        array(),
+        ""
+    ),
+    array(
+        "Услуги",
+        "services/",
+        array(),
+        array(),
+        ""
+    ),
+    array(
+        "Контакты",
+        "contacts/",
+        array(),
+        array(),
+        ""
+    )
+);
+?>
