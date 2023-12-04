@@ -4,39 +4,39 @@
 <?
 $aMenuLinks = array(
     array(
-        "Компания",
-        "company/",
+        "Главная",
+        SITE_DIR . "/",
         array(),
         array(),
         ""
     ),
     array(
-        "Новости",
-        "news/",
+        "Объявления",
+        SITE_DIR . "obyavleniya/",
         array(),
         array(),
         ""
     ),
     array(
-        "Продукция",
-        "products/",
+        "О сервисе",
+        SITE_DIR . "o-servise/",
         array(),
         array(),
         ""
     ),
     array(
-        "Услуги",
-        "services/",
+        "Личный кабинет продавца",
+        SITE_DIR . "lichnyy-kabinet-prodavtsa/",
         array(),
         array(),
-        ""
+        "CSite::InGroup(array(1,7))"    // видимость для групп
     ),
     array(
-        "Контакты",
-        "contacts/",
+        "Личный кабинет покупателя",
+        SITE_DIR . "lichnyy-kabinet-pokupatelya/",
         array(),
         array(),
-        ""
+        "CSite::InGroup(array(1,6))"    // видимость для групп
     )
 );
 ?>
