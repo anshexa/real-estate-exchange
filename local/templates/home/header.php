@@ -85,7 +85,7 @@ IncludeTemplateLangFile(__FILE__);
                                 "AREA_FILE_SHOW" => "file",
                                 "AREA_FILE_SUFFIX" => "include",
                                 "EDIT_TEMPLATE" => "",
-                                "PATH" => "include/header_phone.php"
+                                "PATH" => "/include/header_phone.php"
                             )
                         ); ?>
 
@@ -96,7 +96,7 @@ IncludeTemplateLangFile(__FILE__);
                                 "AREA_FILE_SHOW" => "file",
                                 "AREA_FILE_SUFFIX" => "include",
                                 "EDIT_TEMPLATE" => "",
-                                "PATH" => "include/header_email.php"
+                                "PATH" => "/include/header_email.php"
                             )
                         ); ?>
 
@@ -110,7 +110,7 @@ IncludeTemplateLangFile(__FILE__);
                             "AREA_FILE_SHOW" => "file",
                             "AREA_FILE_SUFFIX" => "include",
                             "EDIT_TEMPLATE" => "",
-                            "PATH" => "include/header_social.php"
+                            "PATH" => "/include/header_social.php"
                         )
                     ); ?>
                 </div>
@@ -131,7 +131,7 @@ IncludeTemplateLangFile(__FILE__);
                                     "AREA_FILE_SHOW" => "file",
                                     "AREA_FILE_SUFFIX" => "include",
                                     "EDIT_TEMPLATE" => "",
-                                    "PATH" => "include/header_logo.php"
+                                    "PATH" => "/include/header_logo.php"
                                 )
                             ); ?>
                         </a>
