@@ -10,7 +10,6 @@ IncludeTemplateLangFile(__FILE__);
         <div class="row">
             <div class="col-lg-4">
                 <div class="mb-5">
-                    <h3 class="footer-heading mb-4"><?= GetMessage("FOOTER_ABOUT") ?></h3>
                     <? $APPLICATION->IncludeComponent(
                         "bitrix:main.include",
                         "",
@@ -69,7 +68,6 @@ IncludeTemplateLangFile(__FILE__);
             </div>
 
             <div class="col-lg-4 mb-5 mb-lg-0">
-                <h3 class="footer-heading mb-4"><?= GetMessage("FOOTER_FOLLOW_US") ?></h3>
                 <? $APPLICATION->IncludeComponent(
                     "bitrix:main.include",
                     "",
